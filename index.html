@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Bukedea Comprehensive School | Knowledge and Innovation</title>
-    <meta name="description" content="Bukedea Comprehensive School — a leading government-aided mixed secondary school in Bukedea District, Uganda. Offering O-Level and A-Level education with a strong tradition of academic and sports excellence across Southern and Northern campuses.">
+    <meta name="description" content="Bukedea Comprehensive School — a leading government-aided mixed secondary school in Bukedea District, Uganda. Offering O-Level and A-Level education with world-class facilities.">
     <meta property="og:title" content="Bukedea Comprehensive School | Knowledge and Innovation">
     <meta property="og:description" content="Academic excellence, world-class sports facilities, and a legacy of producing top national performers. Explore our Southern and Northern campuses.">
     <meta property="og:type" content="website">
-    <link rel="icon" href="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=64&h=64&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict&t=1&mw=247" type="image/png">
+    <link rel="icon" href="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=64&h=64&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
@@ -431,13 +431,25 @@
             position: absolute; bottom: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--neon-cyan));
             box-shadow: 0 0 10px rgba(0, 255, 255, 0.6); transition: all 0.3s ease;
         }
+        
+        .info-box {
+            background: white; padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem;
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); border-left: 4px solid var(--accent);
+        }
+        .info-box h3 { color: var(--primary); margin-bottom: 1rem; }
+        .info-box p { color: #475569; line-height: 1.8; }
+        
+        .two-col-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem; margin-top: 1.5rem;
+        }
     </style>
 </head>
 <body>
     <!-- ═══════════ SPLASH ═══════════ -->
     <div id="splashScreen" class="splash-screen">
         <div class="splash-badge">
-            <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict&t=1&mw=247" alt="School Badge">
+            <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict">
         </div>
         <h1>Bukedea Comprehensive School</h1>
         <p class="sub">Knowledge and Innovation.</p>
@@ -484,7 +496,7 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="logo-area">
-                    <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict&t=1&mw=247" alt="Logo">
+                    <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict">
                     <h1>Bukedea Comprehensive<br><span id="campusNameDisplay" style="font-size:0.7rem;font-weight:500;">Southern Campus</span></h1>
                     <span id="campusBadge" class="campus-badge">Southern</span>
                 </div>
@@ -520,7 +532,7 @@
                     </div>
                 </div>
                 <div class="hero-badge">
-                    <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict&t=1&mw=247" alt="School Badge">
+                    <img src="https://th.bing.com/th?q=Bukedea+Comprehensive+School+Badge+Logo&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=UG&setlang=en&adlt=strict">
                 </div>
             </div>
         </section>
@@ -536,46 +548,14 @@
         <section id="results" data-tab="results" style="background:linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.9) 100%);border-radius:var(--radius);margin-top:2rem;padding:3rem 2rem;">
             <h2 class="sec-title">Academic Results & Achievements</h2>
             <p class="sec-subtitle">Our students consistently excel in national examinations</p>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-header">🏅 2025 UACE Highlights</div>
-                    <div class="card-body">
-                        <p><strong>Outstanding Performance:</strong> Our school achieved remarkable results with multiple AAA scores in sciences, maintaining our position as one of Uganda's leading secondary institutions. Students demonstrated exceptional mastery in Physics, Chemistry, and Mathematics combinations. Several of our graduates earned government sponsorships to prestigious public universities including Makerere University's Faculty of Technology and Kyambogo University's Engineering programs. The 2025 cohort broke our previous records with 92% of students achieving university-admission grades.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">📈 2024 UACE Ranking</div>
-                    <div class="card-body">
-                        <p><strong>National Recognition:</strong> Ranked among the top 15 performing schools nationally, we continue to set benchmarks for educational excellence. Our science stream achieved an average score of 18.5 points, significantly above the national average. The strong showing in PCM, PEM, and HEG combinations reflects our rigorous curriculum and dedicated teaching staff. Our A-Level students' success rate for university admission stands at 88%, with graduates attending institutions across East Africa and beyond.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">🎓 University Placement</div>
-                    <div class="card-body">
-                        <p><strong>Global Opportunities:</strong> Our graduates are placed at leading universities including Makerere University (Faculty of Science, Technology & Engineering), Kyambogo University, Gulu University, Busitema University, Uganda Christian University, and international institutions in Kenya, Tanzania, and Rwanda. We proudly report that our alumni hold positions in government, academia, healthcare, engineering, and corporate sectors, contributing significantly to Uganda's development agenda.</p>
-                    </div>
-                </div>
-            </div>
+            <div class="cards-grid" id="resultsGrid"></div>
         </section>
 
         <!-- ACADEMICS -->
         <section id="academics" data-tab="academics">
             <h2 class="sec-title">Academic Programmes</h2>
             <p class="sec-subtitle">Comprehensive O-Level and A-Level curricula with modern facilities</p>
-            <div style="background: white; padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); border-left: 4px solid var(--accent);">
-                <h3 style="color: var(--primary); margin-bottom: 1rem;">📚 Curriculum Overview</h3>
-                <p style="color: #475569; line-height: 1.8; margin-bottom: 1rem;">Bukedea Comprehensive School offers a comprehensive, internationally-aligned curriculum designed to foster critical thinking, creativity, and practical skills. Our programs are structured to meet Uganda's national standards while preparing students for global competitiveness.</p>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
-                    <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(0, 255, 255, 0.1)); padding: 1.2rem; border-radius: 0.75rem; border-left: 4px solid var(--accent);">
-                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">O-Level (S.1-S.4)</h4>
-                        <p style="color: #475569; font-size: 0.9rem;">Core subjects: English, Mathematics, Integrated Science, Social Studies. Electives: Physics, Chemistry, Biology, Geography, History, Computer Science, Entrepreneurship, Technical Drawing, French, and Home Economics.</p>
-                    </div>
-                    <div style="background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(59, 130, 246, 0.1)); padding: 1.2rem; border-radius: 0.75rem; border-left: 4px solid var(--neon-cyan);">
-                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">A-Level (S.5-S.6)</h4>
-                        <p style="color: #475569; font-size: 0.9rem;">Science Stream: Physics, Chemistry, Biology, Mathematics. Arts Stream: English, History, Geography, Economics. Technical Stream: Physics, Chemistry, Mathematics, Computer Science.</p>
-                    </div>
-                </div>
-            </div>
+            <div id="curriculumOverview" class="info-box"></div>
             <div class="cards-grid" id="academicsGrid"></div>
         </section>
 
@@ -583,10 +563,7 @@
         <section id="sports" data-tab="sports">
             <h2 class="sec-title">🏆 Sports Excellence</h2>
             <p class="sec-subtitle">Home of champions — where talent meets opportunity</p>
-            <div style="background: white; padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); border-left: 4px solid var(--neon-green);">
-                <h3 style="color: var(--primary); margin-bottom: 1rem;">🎯 Sports Philosophy</h3>
-                <p style="color: #475569; line-height: 1.8;">Sports at Bukedea Comprehensive School is not just about winning championships; it's about building character, discipline, teamwork, and resilience. We believe that participation in sports develops the whole person, teaching values that extend far beyond the playing field. Our state-of-the-art facilities and experienced coaching staff ensure that every student-athlete receives the guidance they need to excel.</p>
-            </div>
+            <div id="sportsPhilosophy" class="info-box"></div>
             <div class="cards-grid" id="sportsGrid"></div>
         </section>
 
@@ -594,10 +571,7 @@
         <section id="leadership" data-tab="leadership">
             <h2 class="sec-title">School Leadership</h2>
             <p class="sec-subtitle">Dedicated professionals guiding our students toward success</p>
-            <div style="background: white; padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); border-left: 4px solid var(--neon-purple);">
-                <h3 style="color: var(--primary); margin-bottom: 1rem;">👥 Leadership Team</h3>
-                <p style="color: #475569; line-height: 1.8;">Our leadership team comprises experienced educators and administrators committed to fostering an environment of academic excellence, personal development, and mutual respect. Each member of our leadership brings decades of experience in education, administration, and student welfare, ensuring that Bukedea Comprehensive School remains at the forefront of educational innovation in Uganda.</p>
-            </div>
+            <div id="leadershipIntro" class="info-box"></div>
             <div class="cards-grid" id="leadershipGrid"></div>
         </section>
 
@@ -605,28 +579,7 @@
         <section id="student-life" data-tab="student-life">
             <h2 class="sec-title">Student Life</h2>
             <p class="sec-subtitle">Beyond the classroom — a vibrant, supportive community</p>
-            <div style="background: white; padding: 2rem; border-radius: var(--radius); margin-bottom: 2rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); border-left: 4px solid var(--neon-pink);">
-                <h3 style="color: var(--primary); margin-bottom: 1rem;">🎨 Campus Activities & Clubs</h3>
-                <p style="color: #475569; line-height: 1.8; margin-bottom: 1rem;">Student life at Bukedea is rich with opportunities for personal growth and expression. Beyond academics, students engage in diverse activities designed to nurture their talents, build confidence, and foster lifelong friendships. We encourage participation in clubs, societies, and co-curricular activities that complement classroom learning.</p>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
-                    <div style="background: linear-gradient(135deg, var(--accent), var(--neon-cyan)); color: white; padding: 1rem; border-radius: 0.75rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);">
-                        <h5 style="margin-bottom: 0.5rem;">📖 Debate Club</h5>
-                        <p style="font-size: 0.85rem;">Developing public speaking and critical thinking skills</p>
-                    </div>
-                    <div style="background: linear-gradient(135deg, var(--neon-green), var(--neon-cyan)); color: #0a1f2f; padding: 1rem; border-radius: 0.75rem; box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);">
-                        <h5 style="margin-bottom: 0.5rem;">🎭 Drama Club</h5>
-                        <p style="font-size: 0.85rem;">Exploring creativity through theatre and performance</p>
-                    </div>
-                    <div style="background: linear-gradient(135deg, var(--neon-pink), var(--accent)); color: white; padding: 1rem; border-radius: 0.75rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);">
-                        <h5 style="margin-bottom: 0.5rem;">🔬 Science Club</h5>
-                        <p style="font-size: 0.85rem;">Hands-on exploration of scientific principles</p>
-                    </div>
-                    <div style="background: linear-gradient(135deg, var(--accent), var(--neon-pink)); color: white; padding: 1rem; border-radius: 0.75rem; box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);">
-                        <h5 style="margin-bottom: 0.5rem;">🎵 Music Club</h5>
-                        <p style="font-size: 0.85rem;">Celebrating musical talent across all genres</p>
-                    </div>
-                </div>
-            </div>
+            <div id="studentLifeIntro" class="info-box"></div>
             <div class="cards-grid" id="studentLifeGrid"></div>
         </section>
 
@@ -648,28 +601,7 @@
         <section id="admissions" data-tab="admissions">
             <h2 class="sec-title">Admissions</h2>
             <p class="sec-subtitle">Join a community of excellence — here's how to apply</p>
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;max-width:1100px;margin:0 auto 3rem;">
-                <div style="background:white;border-radius:var(--radius);padding:1.8rem;box-shadow:0 0 15px rgba(59, 130, 246, 0.2);border-left: 4px solid var(--accent);">
-                    <h3 style="color:var(--primary);margin-bottom:0.6rem;">📋 Requirements</h3>
-                    <ul style="color:#475569;font-size:0.9rem;padding-left:1.2rem;line-height:1.8;">
-                        <li>PLE results slip (for S.1 applicants)</li>
-                        <li>UCE results slip (for S.5 applicants)</li>
-                        <li>Recent passport-size photo (3x4)</li>
-                        <li>Letter of recommendation (transfers)</li>
-                        <li>Birth certificate copy</li>
-                        <li>Medical report (optional)</li>
-                        <li>Character testimonial from previous school</li>
-                    </ul>
-                </div>
-                <div style="background:white;border-radius:var(--radius);padding:1.8rem;box-shadow:0 0 15px rgba(59, 130, 246, 0.2);border-left: 4px solid var(--neon-cyan);">
-                    <h3 style="color:var(--primary);margin-bottom:0.6rem;">💳 Fees & Payment</h3>
-                    <p style="color:#475569;font-size:0.9rem;line-height: 1.8;">Fees structures vary by campus, stream, and boarding option (Day/Boarding). We offer flexible payment plans through three installments per term. Payment methods include: Bank deposits to our school account, MTN/Airtel Mobile Money transfers, or in-person payment at the bursar's office during working hours. Early payment attracts a 5% discount.</p>
-                </div>
-                <div style="background:white;border-radius:var(--radius);padding:1.8rem;box-shadow:0 0 15px rgba(59, 130, 246, 0.2);border-left: 4px solid var(--neon-green);">
-                    <h3 style="color:var(--primary);margin-bottom:0.6rem;">🎖️ Scholarships</h3>
-                    <p style="color:#475569;font-size:0.9rem;line-height: 1.8;">Merit scholarships for top O-Level performers (Division 1-2), sports talent scholarships for exceptional athletes, and needs-based bursaries for deserving students. Contact the admissions office for application deadlines, criteria, and documentation required.</p>
-                </div>
-            </div>
+            <div class="cards-grid" id="admissionsInfoGrid"></div>
             <div class="apply-form">
                 <h3 style="text-align:center;color:var(--primary);margin-bottom:1.5rem;">Submit Your Application</h3>
                 <form id="applicationForm">
@@ -718,7 +650,7 @@
             <h2 class="sec-title">Contact Us</h2>
             <p class="sec-subtitle">We're here to help — reach out to our team</p>
             <div class="cards-grid" id="contactGrid"></div>
-            <div style="max-width:700px;margin:2rem auto 0;text-align:center;background:white;border-radius:var(--radius);padding:2rem;box-shadow:0 0 20px rgba(59, 130, 246, 0.3);border: 2px solid var(--neon-cyan);">
+            <div style="max-width:700px;margin:2rem auto 0;text-align:center;background:white;border-radius:var(--radius);padding:2rem;box-shadow:0 0 20px rgba(59, 130, 246, 0.3);border: 2px solid var(--accent);">
                 <h4 style="color:var(--primary);margin-bottom:0.5rem;">✉️ Send Us a Message</h4>
                 <form id="contactForm" style="display:flex;flex-direction:column;gap:1rem;">
                     <input type="text" placeholder="Your Name" required style="padding:0.8rem;border:2px solid #e2e8f0;border-radius:8px;font-family:inherit;transition: all 0.3s ease;">
@@ -781,7 +713,7 @@
         (function() {
             // ─── Supabase init (CREDENTIALS PRESERVED INTACT) ───
             const SUPABASE_URL = 'https://cdpvvbqtysfwxygeuhbt.supabase.co';
-            const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkcHZ2YnF0eXNmd3h5Z2V1aGJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzNjQyNDcsImV4cCI6MjA5Nzk0MDI0N30.-RyNktNuwAv_PeCjA9fUZKocWvFbU-k7pfb08JAnKDE';
+            const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkcHZ2YnF0eXNmd3h5Z2V1aGJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzNjQyNDcsImV4cCI6MjA5Nzk0MDI0N30.N2WaZgE3fXYqI8m5N5K-32xZvJQDj0PQZYa4F0_x1kQ';
             const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
             // Global state
@@ -808,6 +740,20 @@
                 if (!wasOpen) item.classList.add('open');
             }
 
+            function openModal(type, index) {
+                const modal = document.getElementById('infoModal');
+                const content = document.getElementById('modalContent');
+                let data;
+                if (type === 'academic') data = window.currentAcademics[index];
+                else if (type === 'sport') data = window.currentSports[index];
+                if (data) {
+                    content.innerHTML = `<h2>${data.title}</h2><p>${data.long_desc || data.description || 'No details available.'}</p>`;
+                    modal.classList.add('active');
+                }
+            }
+
+            window.openModal = openModal;
+
             // ─── Render functions ───
             function renderAbout(contentItems) {
                 const grid = document.getElementById('aboutGrid');
@@ -826,6 +772,52 @@
                     `;
             }
 
+            function renderResults(items) {
+                const grid = document.getElementById('resultsGrid');
+                if (!grid) return;
+                grid.innerHTML = (items && items.length > 0)
+                    ? items.map(item => `
+                        <div class="card">
+                            <div class="card-header">${item.icon || '🏅'} ${item.title}</div>
+                            <div class="card-body"><p>${item.description}</p></div>
+                        </div>
+                    `).join('')
+                    : `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #64748b;"><i class="fas fa-database"></i> Results data loading...</div>`;
+            }
+
+            function renderCurriculumOverview(item) {
+                const box = document.getElementById('curriculumOverview');
+                if (!box || !item) return;
+                box.innerHTML = `
+                    <h3 style="color: var(--primary); margin-bottom: 1rem;">📚 ${item.title}</h3>
+                    <p style="color: #475569; line-height: 1.8; margin-bottom: 1rem;">${item.description}</p>
+                    <div class="two-col-grid" id="curriculumDetails"></div>
+                `;
+            }
+
+            function renderCurriculumDetails(details) {
+                const box = document.getElementById('curriculumDetails');
+                if (!box || !details) return;
+                box.innerHTML = details.map(d => `
+                    <div style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(0, 255, 255, 0.1)); padding: 1.2rem; border-radius: 0.75rem; border-left: 4px solid var(--accent);">
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">${d.title}</h4>
+                        <p style="color: #475569; font-size: 0.9rem;">${d.description}</p>
+                    </div>
+                `).join('');
+            }
+
+            function renderSportsPhilosophy(item) {
+                const box = document.getElementById('sportsPhilosophy');
+                if (!box || !item) return;
+                box.innerHTML = `<h3 style="color: var(--primary); margin-bottom: 1rem;">🎯 ${item.title}</h3><p style="color: #475569; line-height: 1.8;">${item.description}</p>`;
+            }
+
+            function renderLeadershipIntro(item) {
+                const box = document.getElementById('leadershipIntro');
+                if (!box || !item) return;
+                box.innerHTML = `<h3 style="color: var(--primary); margin-bottom: 1rem;">👥 ${item.title}</h3><p style="color: #475569; line-height: 1.8;">${item.description}</p>`;
+            }
+
             function renderLeadership(contentItems) {
                 const grid = document.getElementById('leadershipGrid');
                 if (!grid) return;
@@ -837,6 +829,12 @@
                         </div>
                     `).join('')
                     : `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #64748b;"><i class="fas fa-database"></i> Leadership data loading...</div>`;
+            }
+
+            function renderStudentLifeIntro(item) {
+                const box = document.getElementById('studentLifeIntro');
+                if (!box || !item) return;
+                box.innerHTML = `<h3 style="color: var(--primary); margin-bottom: 1rem;">🎨 ${item.title}</h3><p style="color: #475569; line-height: 1.8; margin-bottom: 1rem;">${item.description}</p>`;
             }
 
             function renderStudentLife(contentItems) {
@@ -905,6 +903,21 @@
                         </div>
                     `).join('')
                     : `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #64748b;"><i class="fas fa-image"></i> Gallery loading...</div>`;
+            }
+
+            function renderAdmissionsInfo(items) {
+                const grid = document.getElementById('admissionsInfoGrid');
+                if (!grid) return;
+                grid.innerHTML = (items && items.length > 0)
+                    ? items.map(item => `
+                        <div style="background:white;border-radius:var(--radius);padding:1.8rem;box-shadow:0 0 15px rgba(59, 130, 246, 0.2);border-left: 4px solid ${item.color || 'var(--accent)'};">
+                            <h3 style="color:var(--primary);margin-bottom:0.6rem;">
+                                <i class="fas ${item.icon}" style="margin-right: 0.5rem;"></i>${item.title}
+                            </h3>
+                            <p style="color:#475569;font-size:0.9rem;line-height: 1.8;">${item.description}</p>
+                        </div>
+                    `).join('')
+                    : `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #64748b;"><i class="fas fa-database"></i> Admissions info loading...</div>`;
             }
 
             // ─── Main campus content loader ───
@@ -989,127 +1002,133 @@
                     const studentLifeContent = (siteContent || []).filter(c => c.page === 'student-life');
                     renderStudentLife(studentLifeContent);
 
-                    // 6. Gallery
+                    // 6. Results/Achievements
+                    const { data: results } = await supabase
+                        .from('results_achievements')
+                        .select('*')
+                        .order('sort_order');
+                    renderResults(results || []);
+
+                    // 7. Curriculum Overview
+                    const { data: currOverview } = await supabase
+                        .from('section_content')
+                        .select('*')
+                        .eq('section', 'curriculum_overview')
+                        .single();
+                    if (currOverview) renderCurriculumOverview(currOverview);
+
+                    const { data: currDetails } = await supabase
+                        .from('section_content')
+                        .select('*')
+                        .eq('section', 'curriculum_details')
+                        .order('sort_order');
+                    renderCurriculumDetails(currDetails || []);
+
+                    // 8. Sports Philosophy
+                    const { data: sportsPhil } = await supabase
+                        .from('section_content')
+                        .select('*')
+                        .eq('section', 'sports_philosophy')
+                        .single();
+                    if (sportsPhil) renderSportsPhilosophy(sportsPhil);
+
+                    // 9. Leadership Intro
+                    const { data: leadIntro } = await supabase
+                        .from('section_content')
+                        .select('*')
+                        .eq('section', 'leadership_intro')
+                        .single();
+                    if (leadIntro) renderLeadershipIntro(leadIntro);
+
+                    // 10. Student Life Intro
+                    const { data: studentIntro } = await supabase
+                        .from('section_content')
+                        .select('*')
+                        .eq('section', 'student_life_intro')
+                        .single();
+                    if (studentIntro) renderStudentLifeIntro(studentIntro);
+
+                    // 11. Gallery
                     const { data: gallery } = await supabase
                         .from('gallery_images')
                         .select('*')
                         .order('sort_order');
                     renderGallery(gallery || []);
 
-                    // 7. FAQ
+                    // 12. FAQ
                     const { data: faqs } = await supabase
-                        .from('faq_items')
+                        .from('faqs')
                         .select('*')
                         .order('sort_order');
                     renderFAQ(faqs || []);
 
-                    // 8. News
+                    // 13. News
                     const { data: news } = await supabase
-                        .from('news_items')
+                        .from('news_announcements')
                         .select('*')
-                        .order('published_at', { ascending: false });
+                        .order('created_at', { ascending: false })
+                        .limit(6);
                     renderNews(news || []);
 
-                    // 9. Downloads
+                    // 14. Downloads
                     const { data: downloads } = await supabase
                         .from('downloads')
                         .select('*')
                         .order('sort_order');
                     renderDownloads(downloads || []);
 
+                    // 15. Admissions Info
+                    const { data: admissionsInfo } = await supabase
+                        .from('admissions_info')
+                        .select('*')
+                        .order('sort_order');
+                    renderAdmissionsInfo(admissionsInfo || []);
+
+                    hideSplash();
                 } catch (err) {
-                    console.error('Error loading campus content:', err);
+                    console.error('Error loading content:', err);
+                    hideSplash();
                 }
             }
 
-            // ─── Modal opener ───
-            window.openModal = function(type, index) {
-                let title = '', content = '';
-                if (type === 'academic' && window.currentAcademics[index]) {
-                    title = window.currentAcademics[index].title;
-                    content = window.currentAcademics[index].detail || window.currentAcademics[index].short_desc;
-                } else if (type === 'sport' && window.currentSports[index]) {
-                    title = window.currentSports[index].title;
-                    content = window.currentSports[index].detail || window.currentSports[index].short_desc;
-                }
-                document.getElementById('modalContent').innerHTML = `<h2>${title}</h2><p style="font-size:1.05rem;line-height:1.75;">${content}</p>`;
-                document.getElementById('infoModal').classList.add('active');
-            };
-
-            // ─── Campus selection flow ───
-            window.selectCampus = function(campus) {
+            function selectCampus(campus) {
                 currentCampus = campus;
+                document.getElementById('campusScreen').style.display = 'none';
+                document.getElementById('mainWebsite').classList.add('active');
+                localStorage.setItem('selectedCampus', campus);
                 loadCampusContent();
-                const cs = document.getElementById('campusScreen');
-                cs.style.opacity = '0';
+            }
+            window.selectCampus = selectCampus;
+
+            function showCampusSelection() {
+                document.getElementById('campusScreen').style.display = 'flex';
+                document.getElementById('mainWebsite').classList.remove('active');
+            }
+            window.showCampusSelection = showCampusSelection;
+
+            function hideSplash() {
                 setTimeout(() => {
-                    cs.style.display = 'none';
-                    const mw = document.getElementById('mainWebsite');
-                    mw.style.display = 'block';
-                    mw.classList.add('active');
-                    setTimeout(() => { mw.style.opacity = '1'; }, 50);
-                }, 400);
-            };
+                    document.getElementById('splashScreen').style.opacity = '0';
+                    document.getElementById('splashScreen').style.visibility = 'hidden';
+                    setTimeout(() => {
+                        document.getElementById('campusScreen').style.display = 'flex';
+                    }, 100);
+                }, 2000);
+            }
 
-            window.showCampusSelection = function() {
-                const mw = document.getElementById('mainWebsite');
-                mw.style.opacity = '0';
-                setTimeout(() => {
-                    mw.classList.remove('active');
-                    mw.style.display = 'none';
-                    const cs = document.getElementById('campusScreen');
-                    cs.style.display = 'flex';
-                    setTimeout(() => { cs.style.opacity = '1'; }, 50);
-                }, 400);
-            };
-
-            // ─── Forms ───
-            document.getElementById('applicationForm').addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('✅ Application received! Our admissions team will contact you within 3 working days.');
-                this.reset();
-            });
-
-            document.getElementById('contactForm').addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('✅ Message sent! We will respond shortly.');
-                this.reset();
-            });
-
-            // ─── Smooth scrolling for nav links ───
-            document.querySelectorAll('.nav-links a[href^="#"]').forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({ behavior: 'smooth' });
-                        document.getElementById('navLinks')?.classList.remove('active');
-                    }
-                });
-            });
-
-            // Back‑to‑top visibility
-            const backToTop = document.getElementById('backToTop');
+            // Back-to-top button visibility
             window.addEventListener('scroll', () => {
-                backToTop.classList.toggle('visible', window.scrollY > 600);
+                const btn = document.getElementById('backToTop');
+                if (window.scrollY > 300) {
+                    btn.classList.add('visible');
+                } else {
+                    btn.classList.remove('visible');
+                }
             });
 
-            // ─── Splash → Campus Selection ───
-            setTimeout(() => {
-                const splash = document.getElementById('splashScreen');
-                splash.style.opacity = '0';
-                setTimeout(() => {
-                    splash.style.display = 'none';
-                    const cs = document.getElementById('campusScreen');
-                    cs.style.display = 'flex';
-                    cs.style.opacity = '1';
-                }, 800);
-            }, 2500);
-
-            // ─── Expose global functions ───
-            window.toggleMobileMenu = toggleMobileMenu;
-            window.closeModal = closeModal;
-            window.toggleFAQ = toggleFAQ;
+            // Initialize
+            const savedCampus = localStorage.getItem('selectedCampus') || 'southern';
+            selectCampus(savedCampus);
         })();
     </script>
 </body>
